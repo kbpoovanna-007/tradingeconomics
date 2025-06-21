@@ -7,7 +7,7 @@ pip install streamlit
 ```
 
 # Run the app
-Before Running the app, enter your API key 
+Before Running the app, enter your API key in the config file
 ```
 streamlit run ./HomePage🏠.py
 ```
