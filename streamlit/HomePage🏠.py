@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="GDP Comparison", page_icon="📊", layout="wide")
 
-API_KEY = ''
+API_KEY = 'guest:guest'
 
 # Available countries
 COUNTRIES = {
