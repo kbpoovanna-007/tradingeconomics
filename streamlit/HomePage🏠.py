@@ -2,10 +2,16 @@ import streamlit as st
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
+import sys
+import os
+
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
 st.set_page_config(page_title="GDP Comparison", page_icon="📊", layout="wide")
 
-API_KEY = 'guest:guest'
+API_KEY = config.key
 
 # Available countries
 COUNTRIES = {
