@@ -1,16 +1,19 @@
-#Install streamlit
 
-`pip install streamlit`
+***made by kbpoovanna-007***
 
-#Run the app
+# Install streamlit
+```
+pip install streamlit
+```
 
-`streamlit run ./HomePage🏠.py`
 
-*by kbpoovanna-007*
-
----
+# Run the app
+```
+streamlit run ./HomePage🏠.py
+```
 
 # About the app
 
-This app will help plot and compare 2 country's GDPs and also will help you get the latest financial news
+This app will help you plot and compare 2 country's GDPs and also will help you get the latest financial news
+
 
