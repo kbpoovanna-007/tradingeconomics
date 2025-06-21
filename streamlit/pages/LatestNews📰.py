@@ -4,7 +4,7 @@ import requests
 st.title("📰 Latest News")
 
 def get_news():
-    api_key = 'c1128d1cb15b485:gyb7a94hn44lusf'
+    api_key = 'guest:guest' 
     url = f'https://api.tradingeconomics.com/news?c={api_key}'
     response = requests.get(url)
     return response.json()
