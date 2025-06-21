@@ -1,10 +1,16 @@
 import streamlit as st
 import requests
+import sys
+import os
+
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
 st.title("📰 Latest News")
 
 def get_news():
-    api_key = 'guest:guest' 
+    api_key = config.key
     url = f'https://api.tradingeconomics.com/news?c={api_key}'
     response = requests.get(url)
     return response.json()
